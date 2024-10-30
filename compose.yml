@@ -1,0 +1,10 @@
+services:
+  ndi-discovery-server:
+    container_name: ndi-discovery-server
+    image: ninbura/ndi-discovery-server
+    ports:
+      - "5959:5959"
+    environment:
+      # - NDI_PORT=5959
+      # - NDI_BIND_IP=0.0.0.0
+    restart: unless-stopped
