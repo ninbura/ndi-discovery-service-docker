@@ -3,30 +3,30 @@ This setup lets you easily start, stop, and update the NDI Discovery Service via
 
 ## Starting the Service
 1. Clone this repository
-  - ```
-    git clone https://github.com/yourusername/ndi-discovery-server-docker.git
-    cd ndi-discovery-server-docker
-    ```
+    - ```
+      git clone https://github.com/yourusername/ndi-discovery-server-docker.git
+      cd ndi-discovery-server-docker
+      ```
 2. Start the container using Docker Compose
-  - ```
-    docker compose up -d
-    ```
+    - ```
+      docker compose up -d
+      ```
 3. Check the logs to verify proper output
-  - ```
-    docker compose logs -f
-    ```
+    - ```
+      docker compose logs -f
+      ```
 
 ## Updating
 To update the image when a new version is released, pull the latest image from Docker Hub and restart the container.
 
 1. Pull the latest image
-  - ```
-    docker compose pull
-    ```
+    - ```
+      docker compose pull
+      ```
 2. Restart the container
-  - ```
-    docker compose up -d
-    ```
+    - ```
+      docker compose up -d
+      ```
 
 ## Stopping the Service
 To stop the service, run the following command.
