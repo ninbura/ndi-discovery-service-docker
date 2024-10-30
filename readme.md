@@ -1,5 +1,5 @@
-# NDI Discovery Server Docker Setup
-This setup lets you easily start, stop, and update the NDI Discovery Service via Docker.
+# NDI Discovery Server Docker
+This repository aims to make it easier to start, stop, and update the NDI Discovery Service via Docker.
 
 ## Starting the Service
 1. Clone this repository and enter the directory
