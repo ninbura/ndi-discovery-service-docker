@@ -15,7 +15,7 @@ This setup lets you easily start, stop, and update the NDI Discovery Service via
       ```
 3. Check the logs to verify proper output
     - ```bash
-      docker compose logs -f
+      docker compose logs
       ```
 
 ## Updating
