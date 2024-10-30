@@ -29,7 +29,6 @@ This setup lets you easily start, stop, and update the NDI Discovery Service via
       ```
 
 ## Stopping the Service
-To stop the service, run the following command.
 ```bash
 docker compose down
 ```
