@@ -5,6 +5,8 @@ This setup lets you easily start, stop, and update the NDI Discovery Service via
 1. Clone this repository
     - ```bash
       git clone https://github.com/yourusername/ndi-discovery-server-docker.git
+      ```
+    - ```bash
       cd ndi-discovery-server-docker
       ```
 2. Start the container using Docker Compose
