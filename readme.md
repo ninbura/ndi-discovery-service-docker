@@ -35,5 +35,5 @@ docker compose down
 ```
 
 ## Configurating Environment Variables
-- `NDI_PORT` (default: `5959`) - Specifies the port for the NDI Discovery Service. Adjusting this allows you to run the service on a different port if needed. Make sure you also adjust the port mapping in the `docker-compose.yml` file.
+- `NDI_PORT` (default: `5959`) - Specifies the port for the NDI Discovery Service. Adjusting this allows you to run the service on a different port if needed. Make sure you also adjust the port mapping in the `docker-compose.yml` file. The left hand port should match `NDI_PORT`, the right hand side port is what's exposed on your host.
 - `NDI_BIND` (default: `0.0.0.0`) - Sets the IP address to which the NDI Discovery Server binds. You only need to change NDI_BIND_IP if you are running the container in host network mode.
