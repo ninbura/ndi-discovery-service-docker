@@ -32,9 +32,9 @@ To update the image when a new version is released, pull the latest image from D
 
 ## Stopping the Service
 To stop the service, run the following command.
-- ```bash
-  docker compose down
-  ```
+```bash
+docker compose down
+```
 
 ## Configurating Environment Variables
 The NDI Discovery Server container supports two configurable environment variables.
