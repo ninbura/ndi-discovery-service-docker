@@ -34,5 +34,5 @@ docker compose down
 ```
 
 ## Configurating Environment Variables
-- `NDI_BIND` (default: `0.0.0.0`) - Sets the IP address to which the NDI Discovery Server binds.
+- `NDI_BIND` (default: `0.0.0.0`) - Sets the IP address / interface to which the NDI Discovery Server binds.
 - `NDI_PORT` (default: `5959`) - Specifies the port for the NDI Discovery Service.
