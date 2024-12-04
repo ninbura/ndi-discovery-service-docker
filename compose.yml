@@ -1,7 +1,7 @@
 services:
   ndi-discovery-server:
-    container_name: ndi-discovery-server
-    image: ninbura/ndi-discovery-server
+    container_name: ndi-discovery-service
+    image: ninbura/ndi-discovery-service
     ports:
       - 5959:5959
     restart: unless-stopped
