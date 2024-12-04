@@ -1,4 +1,4 @@
-# NDI Discovery Server Docker
+# NDI Discovery Service Docker
 This repository aims to make it easier to start, stop, and update the NDI Discovery Service via Docker.
 
 ## Starting the Service
