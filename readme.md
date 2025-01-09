@@ -4,7 +4,7 @@ This repository aims to make it easier to start, stop, and update the NDI Discov
 ## Starting the Service
 1. Clone this repository and enter the directory
     - ```bash
-      git clone https://github.com/yourusername/ndi-discovery-service-docker.git
+      git clone https://github.com/ninbura/ndi-discovery-service-docker
       ```
     - ```bash
       cd ndi-discovery-service-docker
